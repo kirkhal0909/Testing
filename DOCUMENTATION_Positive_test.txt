@@ -1,0 +1,9 @@
+Тест формы по ссылке
+https://a1-systems.com/en/services_eng/
+нажав на кнопку - Request information
+Скрипт service_back.py взаимодействует с REST обращаясь на https://a1-systems.com/wp-json/contact-form-7/v1/contact-forms/656/feedback
+Файл back_form.log содержит информацию тестов, где параметры разделены символом табуляции(\t)
+
+date_start	status_code_200	server_say_msg_sended	time_back_form	message_getted
+Формат
+Datetime	bool		bool			time		bool
